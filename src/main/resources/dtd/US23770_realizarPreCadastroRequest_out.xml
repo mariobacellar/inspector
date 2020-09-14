@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SiebelMessage SYSTEM "US23770_realizarPreCadastroRequest_out.dtd" >
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <Body>
+    <realizarPreCadastroRequest>
+      <MessageHeader>
+        <Header>
+          <Operation>Operation</Operation>
+          <TransactionId>TransactionId</TransactionId>
+          <CorrelationId>CorrelationId</CorrelationId>
+          <BusinessId>BusinessId</BusinessId>
+          <Timestamp>Timestamp</Timestamp>
+        </Header>
+      </MessageHeader>
+      <ListOfPreCadastro>
+        <PreCadastro>
+          <Cpf>Cpf</Cpf>
+          <Email>Email</Email>
+          <NomeCliente>NomeCliente</NomeCliente>
+          <TipoProduto>TipoProduto</TipoProduto>
+          <TerminalContrato>TerminalContrato</TerminalContrato>
+          <DataVenda>DataVenda</DataVenda>
+          <ContaOnline>ContaOnline</ContaOnline>
+          <CodSAP>CodSAP</CodSAP>
+          <RazaoSocial>RazaoSocial</RazaoSocial>
+          <NomeFantasia>NomeFantasia</NomeFantasia>
+          <CanalVendas>CanalVendas</CanalVendas>
+          <Uf>Uf</Uf>
+          <Login>Login</Login>
+        </PreCadastro>
+      </ListOfPreCadastro>
+    </realizarPreCadastroRequest>
+  </Body>
+</SiebelMessage>

@@ -1,0 +1,68 @@
+2019-02-21 18:34:02 INFO  Inspector:28 - -> perform()
+2019-02-21 18:34:02 INFO  Config:27 - -> init()
+2019-02-21 18:34:02 INFO  Config:49 - - Key=[siebel63.file.csv.file] -  Value=[CenariosSiebel63.csv]
+2019-02-21 18:34:02 INFO  Config:49 - - Key=[siebel63.api.environment] -  Value=[TI8]
+2019-02-21 18:34:02 INFO  Config:49 - - Key=[siebel63.api] -  Value=[framework/start.swe/]
+2019-02-21 18:34:02 INFO  Config:49 - - Key=[siebel63.server.trg] -  Value=[http://crmoihml07.oi.corp.net/]
+2019-02-21 18:34:02 INFO  Config:49 - - Key=[siebel63.api.params] -  Value=[?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs]
+2019-02-21 18:34:02 INFO  Config:49 - - Key=[siebel63.file.xml.dir] -  Value=[src/main/resources/xml/]
+2019-02-21 18:34:02 INFO  Config:49 - - Key=[siebel63.file.tmpl.dir] -  Value=[src/main/resources/tmpl/]
+2019-02-21 18:34:02 INFO  Config:49 - - Key=[siebel63.server.ti8] -  Value=[http://crmoihml03.oi.corp.net/]
+2019-02-21 18:34:02 INFO  Config:49 - - Key=[siebel63.file.csv.dir] -  Value=[src/main/resources/csv/]
+2019-02-21 18:34:02 INFO  Config:51 - <- init()
+2019-02-21 18:34:02 INFO  Inspector:51 - -> loadConfigProperties()
+2019-02-21 18:34:02 INFO  Config:22 - -> getParam(String key=[siebel63.api.environment]/val=[TI8])
+2019-02-21 18:34:02 INFO  Config:22 - -> getParam(String key=[siebel63.server.ti8]/val=[http://crmoihml03.oi.corp.net/])
+2019-02-21 18:34:02 INFO  Config:22 - -> getParam(String key=[siebel63.api]/val=[framework/start.swe/])
+2019-02-21 18:34:02 INFO  Config:22 - -> getParam(String key=[siebel63.api.params]/val=[?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs])
+2019-02-21 18:34:02 INFO  Inspector:57 - - Sending transactions to [TI8] = [http://crmoihml03.oi.corp.net/framework/start.swe/?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs]
+2019-02-21 18:34:02 INFO  Inspector:58 - <- loadConfigProperties()
+2019-02-21 18:34:02 INFO  Inspector:64 - -> loadCenarioTesteSiebel63()
+2019-02-21 18:34:02 INFO  Cenario:50 - -> loadAllCenarios()
+2019-02-21 18:34:02 INFO  Config:119 - -> getAllCsvRecords()
+2019-02-21 18:34:02 INFO  Config:22 - -> getParam(String key=[siebel63.file.csv.dir]/val=[src/main/resources/csv/])
+2019-02-21 18:34:02 INFO  Config:22 - -> getParam(String key=[siebel63.file.csv.file]/val=[CenariosSiebel63.csv])
+2019-02-21 18:34:02 INFO  Config:123 - Name=[src/main/resources/csv/CenariosSiebel63.csv]
+2019-02-21 18:34:02 INFO  Config:126 - <- getAllCsvRecords()
+2019-02-21 18:34:02 INFO  Cenario:73 - -> build([Ljava.lang.String;@1ee807c6)
+2019-02-21 18:34:02 INFO  Cenario:94 - -> build([Ljava.lang.String;@1ee807c6)
+2019-02-21 18:34:02 INFO  Cenario:73 - -> build([Ljava.lang.String;@76a4d6c)
+2019-02-21 18:34:02 INFO  Cenario:94 - -> build([Ljava.lang.String;@76a4d6c)
+2019-02-21 18:34:02 INFO  Cenario:73 - -> build([Ljava.lang.String;@517cd4b)
+2019-02-21 18:34:02 INFO  Cenario:94 - -> build([Ljava.lang.String;@517cd4b)
+2019-02-21 18:34:02 INFO  Cenario:73 - -> build([Ljava.lang.String;@6cc7b4de)
+2019-02-21 18:34:02 INFO  Cenario:94 - -> build([Ljava.lang.String;@6cc7b4de)
+2019-02-21 18:34:02 INFO  Cenario:73 - -> build([Ljava.lang.String;@32cf48b7)
+2019-02-21 18:34:02 INFO  Cenario:94 - -> build([Ljava.lang.String;@32cf48b7)
+2019-02-21 18:34:02 INFO  Cenario:73 - -> build([Ljava.lang.String;@679b62af)
+2019-02-21 18:34:02 INFO  Cenario:94 - -> build([Ljava.lang.String;@679b62af)
+2019-02-21 18:34:02 INFO  Cenario:63 - <- loadAllCenarios() ... loaded (6)
+2019-02-21 18:34:02 INFO  Inspector:67 - *** cenario: ***id=[integrationObject-cenario-condicao]-integrationObject=[integrationObject]-cenario=[cenario]-condicao=[condicao]-retorno=[retorno]-wildcard=[[Ljava.lang.String;@5cdd8682]-fileReq=[integrationObject-cenario-condicao.xml]-fileRsp=[integrationObject-cenario-condicao-rsp.xml]-tmpl=[integrationObject-cenario-condicao.tmpl]
+2019-02-21 18:34:02 INFO  Inspector:67 - *** cenario: ***id=[FRMCASI-1-1]-integrationObject=[FRMCASI]-cenario=[1]-condicao=[1]-retorno=[0]-wildcard=[[Ljava.lang.String;@d6da883]-fileReq=[FRMCASI-1-1.xml]-fileRsp=[FRMCASI-1-1-rsp.xml]-tmpl=[FRMCASI-1-1.tmpl]
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***OA0848
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***2626273094
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***21
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***Normal
+2019-02-21 18:34:02 INFO  Inspector:67 - *** cenario: ***id=[FRMCASI-1-2]-integrationObject=[FRMCASI]-cenario=[1]-condicao=[2]-retorno=[-1]-wildcard=[[Ljava.lang.String;@45afc369]-fileReq=[FRMCASI-1-2.xml]-fileRsp=[FRMCASI-1-2-rsp.xml]-tmpl=[FRMCASI-1-2.tmpl]
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***OA0848
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***2626273094
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***21
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***Varejo
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***Normal
+2019-02-21 18:34:02 INFO  Inspector:67 - *** cenario: ***id=[FRMCASI-1-3]-integrationObject=[FRMCASI]-cenario=[1]-condicao=[3]-retorno=[-1]-wildcard=[[Ljava.lang.String;@799d4f69]-fileReq=[FRMCASI-1-3.xml]-fileRsp=[FRMCASI-1-3-rsp.xml]-tmpl=[FRMCASI-1-3.tmpl]
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***OA0848
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***2626273094
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***21
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***Varejo
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***Normal
+2019-02-21 18:34:02 INFO  Inspector:67 - *** cenario: ***id=[FRMCAcntFI-1-1]-integrationObject=[FRMCAcntFI]-cenario=[1]-condicao=[1]-retorno=[0]-wildcard=[[Ljava.lang.String;@49c43f4e]-fileReq=[FRMCAcntFI-1-1.xml]-fileRsp=[FRMCAcntFI-1-1-rsp.xml]-tmpl=[FRMCAcntFI-1-1.tmpl]
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***OA0848
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***21
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***985143918
+2019-02-21 18:34:02 INFO  Inspector:67 - *** cenario: ***id=[FRMCAcntFI-1-1]-integrationObject=[FRMCAcntFI]-cenario=[1]-condicao=[1]-retorno=[-1]-wildcard=[[Ljava.lang.String;@290dbf45]-fileReq=[FRMCAcntFI-1-1.xml]-fileRsp=[FRMCAcntFI-1-1-rsp.xml]-tmpl=[FRMCAcntFI-1-1.tmpl]
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***OA0848
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***21
+2019-02-21 18:34:02 INFO  Inspector:69 - *** wild: ***985143918
+2019-02-21 18:34:02 INFO  Inspector:72 - <- loadCenarioTesteSiebel63()
+2019-02-21 18:34:02 INFO  Inspector:77 - -> buildSiebelMessageXMLFiles()

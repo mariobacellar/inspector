@@ -1,0 +1,1 @@
+<SiebelMessage xmlns="" MessageId="" MessageType="Integration Object" IntObjectName="FRMCAcntFI"><ListaConsultaContaFatura><Dados><OrigemRequisicao>$1</OrigemRequisicao><ListaDocumentos><Documento><DDD>$2</DDD><MeiodeAcesso>$3</MeiodeAcesso></Documento></ListaDocumentos></Dados></ListaConsultaContaFatura></SiebelMessage>

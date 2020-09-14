@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <Body>
+    <RealizarPreCadastroResponse>
+      <ResponseControl>
+        <Code>Code</Code>
+        <Reason>Reason</Reason>
+      </ResponseControl>
+    </RealizarPreCadastroResponse>
+  </Body>
+</SiebelMessage>

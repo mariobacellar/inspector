@@ -1,0 +1,15 @@
+2019-02-20 19:06:05 INFO  Config:27 - -> init()
+2019-02-20 19:06:05 INFO  Config:49 - - Key=[siebel63.file.csv.file] -  Value=[CenariosSiebel63.csv]
+2019-02-20 19:06:05 INFO  Config:49 - - Key=[siebel63.api.environment] -  Value=[TI8]
+2019-02-20 19:06:05 INFO  Config:49 - - Key=[siebel63.api] -  Value=[/framework/start.swe/]
+2019-02-20 19:06:05 INFO  Config:49 - - Key=[siebel63.server.trg] -  Value=[http://crmoihml07.oi.corp.net/]
+2019-02-20 19:06:05 INFO  Config:49 - - Key=[siebel63.api.params] -  Value=[?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs]
+2019-02-20 19:06:05 INFO  Config:49 - - Key=[siebel63.file.xml.dir] -  Value=[src/main/resources/xml/]
+2019-02-20 19:06:05 INFO  Config:49 - - Key=[siebel63.file.tmpl.dir] -  Value=[src/main/resources/tmpl/]
+2019-02-20 19:06:05 INFO  Config:49 - - Key=[siebel63.server.ti8] -  Value=[http://crmoihml03.oi.corp.net/]
+2019-02-20 19:06:05 INFO  Config:49 - - Key=[siebel63.file.csv.dir] -  Value=[src/main/resources/csv/]
+2019-02-20 19:06:05 INFO  Config:51 - <- init()
+2019-02-20 19:06:05 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-20 19:06:05 INFO  SiebelMessage:76 - file=[src\main\resources\xml\Response.xml]
+2019-02-20 19:06:05 INFO  SiebelMessage:84 - SiebelMessage.Codigo =[0]
+2019-02-20 19:06:05 INFO  SiebelMessage:85 - SiebelMessage.Message=[Suxesu]

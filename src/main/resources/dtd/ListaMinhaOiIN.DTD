@@ -1,0 +1,11 @@
+<!-- Copyright (C) 1994, Siebel Systems, L.P., All rights reserved. -->
+<!-- Siebel DTD Generation -->
+<!ELEMENT SiebelMessage (Body?) >
+<!ATTLIST SiebelMessage MessageId CDATA #IMPLIED >
+<!ATTLIST SiebelMessage MessageType CDATA #IMPLIED >
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED>
+<!ELEMENT Body (RealizarPreCadastroResponse+) >
+<!ELEMENT RealizarPreCadastroResponse (ResponseControl*) >
+<!ELEMENT ResponseControl (Code?, Reason?) >
+<!ELEMENT Code (#PCDATA) >
+<!ELEMENT Reason (#PCDATA) >

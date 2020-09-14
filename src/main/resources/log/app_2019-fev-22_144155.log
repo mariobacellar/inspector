@@ -1,0 +1,10 @@
+2019-02-22 14:41:54 INFO  Config:49 - - Key=[siebel63.file.csv.dir] -  Value=[src/main/resources/csv/]
+2019-02-22 14:41:55 INFO  Config:51 - <- init()
+2019-02-22 14:41:55 INFO  Config:22 - -> getParam(String key=[siebel63.server.ti8]/val=[http://crmoihml03.oi.corp.net/])
+2019-02-22 14:41:55 INFO  Config:22 - -> getParam(String key=[siebel63.api]/val=[framework/start.swe/])
+2019-02-22 14:41:55 INFO  Config:22 - -> getParam(String key=[siebel63.api.params]/val=[?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs])
+2019-02-22 14:41:55 INFO  Config:85 - -> readFile(FRMCASI.xml), kind=[xml]
+2019-02-22 14:41:55 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-22 14:41:55 INFO  Config:95 - dir=[src/main/resources/xml/]
+2019-02-22 14:41:55 INFO  Config:98 - file=[src\main\resources\xml\FRMCASI.xml]
+2019-02-22 14:41:55 ERROR Siebel63HttpConnection:140 - java.io.FileNotFoundException: src\main\resources\xml\FRMCASI.xml (The system cannot find the file specified)

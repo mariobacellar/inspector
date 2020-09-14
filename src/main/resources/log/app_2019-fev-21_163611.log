@@ -1,0 +1,25 @@
+2019-02-21 16:36:11 INFO  Siebel63HttpConnection:81 - -> main
+2019-02-21 16:36:11 INFO  Config:27 - -> init()
+2019-02-21 16:36:11 INFO  Config:49 - - Key=[siebel63.file.csv.file] -  Value=[CenariosSiebel63.csv]
+2019-02-21 16:36:11 INFO  Config:49 - - Key=[siebel63.api.environment] -  Value=[TI8]
+2019-02-21 16:36:11 INFO  Config:49 - - Key=[siebel63.api] -  Value=[/framework/start.swe/]
+2019-02-21 16:36:11 INFO  Config:49 - - Key=[siebel63.server.trg] -  Value=[http://crmoihml07.oi.corp.net/]
+2019-02-21 16:36:11 INFO  Config:49 - - Key=[siebel63.api.params] -  Value=[?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs]
+2019-02-21 16:36:11 INFO  Config:49 - - Key=[siebel63.file.xml.dir] -  Value=[src/main/resources/xml/]
+2019-02-21 16:36:11 INFO  Config:49 - - Key=[siebel63.file.tmpl.dir] -  Value=[src/main/resources/tmpl/]
+2019-02-21 16:36:11 INFO  Config:49 - - Key=[siebel63.server.ti8] -  Value=[http://crmoihml03.oi.corp.net/]
+2019-02-21 16:36:11 INFO  Config:49 - - Key=[siebel63.file.csv.dir] -  Value=[src/main/resources/csv/]
+2019-02-21 16:36:11 INFO  Config:51 - <- init()
+2019-02-21 16:36:11 INFO  Config:22 - -> getParam(String key=[siebel63.server.ti8]/val=[http://crmoihml03.oi.corp.net/])
+2019-02-21 16:36:11 INFO  Config:22 - -> getParam(String key=[siebel63.api]/val=[/framework/start.swe/])
+2019-02-21 16:36:11 INFO  Config:22 - -> getParam(String key=[siebel63.api.params]/val=[?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs])
+2019-02-21 16:36:11 INFO  Config:79 - -> readFile(FRMCASI.xml), kind=[xml]
+2019-02-21 16:36:11 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-21 16:36:11 INFO  Config:83 - dir=[src/main/resources/xml/]
+2019-02-21 16:36:11 INFO  Config:86 - file=[src\main\resources\xml\FRMCASI.xml]
+2019-02-21 16:36:11 INFO  Config:99 - content=[<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASI"><ListaConsultaMeioDeAcesso><Dados><OrigemRequisicao></OrigemRequisicao><ListaMeioDeAcesso><MeioDeAcesso><NumeroContaFatura>2626273094</NumeroContaFatura><DDD>21</DDD><Designacao>Varejo</Designacao><Classificacao>Normal</Classificacao></MeioDeAcesso></ListaMeioDeAcesso></Dados></ListaConsultaMeioDeAcesso></SiebelMessage>)
+2019-02-21 16:36:11 INFO  Config:100 - <-- readFile(FRMCASI.xml), kind=[]
+2019-02-21 16:36:11 INFO  Siebel63HttpConnection:88 - url=[http://crmoihml03.oi.corp.net//framework/start.swe/?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs]
+2019-02-21 16:36:11 INFO  Siebel63HttpConnection:89 - content=[<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASI"><ListaConsultaMeioDeAcesso><Dados><OrigemRequisicao></OrigemRequisicao><ListaMeioDeAcesso><MeioDeAcesso><NumeroContaFatura>2626273094</NumeroContaFatura><DDD>21</DDD><Designacao>Varejo</Designacao><Classificacao>Normal</Classificacao></MeioDeAcesso></ListaMeioDeAcesso></Dados></ListaConsultaMeioDeAcesso></SiebelMessage>]
+2019-02-21 16:36:11 INFO  Siebel63HttpConnection:29 - -> post(p_url=[http://crmoihml03.oi.corp.net//framework/start.swe/?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs], content=[<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASI"><ListaConsultaMeioDeAcesso><Dados><OrigemRequisicao></OrigemRequisicao><ListaMeioDeAcesso><MeioDeAcesso><NumeroContaFatura>2626273094</NumeroContaFatura><DDD>21</DDD><Designacao>Varejo</Designacao><Classificacao>Normal</Classificacao></MeioDeAcesso></ListaMeioDeAcesso></Dados></ListaConsultaMeioDeAcesso></SiebelMessage>]
+2019-02-21 16:36:11 INFO  Siebel63HttpConnection:34 - Content-Lenght=[406]

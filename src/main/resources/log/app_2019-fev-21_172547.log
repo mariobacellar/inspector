@@ -1,0 +1,30 @@
+2019-02-21 17:25:47 INFO  Siebel63HttpConnection:134 - response=[<?xml version="1.0" encoding="ISO-8859-1"?><SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASO"><ListaRetorno><Retorno><Codigo>0</Codigo><Mensagem></Mensagem><ListaMeioDeAcesso><MeioDeAcesso><MSISDN>21911154831</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154832</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154833</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154834</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154835</MSISDN></MeioDeAcesso></ListaMeioDeAcesso></Retorno></ListaRetorno></SiebelMessage>]
+2019-02-21 17:25:47 INFO  Config:43 - -> writeFile(fileNeme=[FRMCASI-rsp.xml], content=[<?xml version="1.0" encoding="ISO-8859-1"?><SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASO"><ListaRetorno><Retorno><Codigo>0</Codigo><Mensagem></Mensagem><ListaMeioDeAcesso><MeioDeAcesso><MSISDN>21911154831</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154832</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154833</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154834</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154835</MSISDN></MeioDeAcesso></ListaMeioDeAcesso></Retorno></ListaRetorno></SiebelMessage>]), kind=[xml]
+2019-02-21 17:25:47 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-21 17:25:47 INFO  Config:49 - dir=[src/main/resources/xml/]
+2019-02-21 17:25:47 INFO  Config:52 - file=[src\main\resources\xml\FRMCASI-rsp.xml]
+2019-02-21 17:25:47 INFO  Config:57 - Content wrote=[<?xml version="1.0" encoding="ISO-8859-1"?><SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASO"><ListaRetorno><Retorno><Codigo>0</Codigo><Mensagem></Mensagem><ListaMeioDeAcesso><MeioDeAcesso><MSISDN>21911154831</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154832</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154833</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154834</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154835</MSISDN></MeioDeAcesso></ListaMeioDeAcesso></Retorno></ListaRetorno></SiebelMessage>]
+2019-02-21 17:25:47 INFO  Config:75 - <- writeFile(fileNeme=[FRMCASI-rsp.xml], content=[<?xml version="1.0" encoding="ISO-8859-1"?><SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASO"><ListaRetorno><Retorno><Codigo>0</Codigo><Mensagem></Mensagem><ListaMeioDeAcesso><MeioDeAcesso><MSISDN>21911154831</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154832</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154833</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154834</MSISDN></MeioDeAcesso><MeioDeAcesso><MSISDN>21911154835</MSISDN></MeioDeAcesso></ListaMeioDeAcesso></Retorno></ListaRetorno></SiebelMessage>]), kind=[]
+2019-02-21 17:25:47 INFO  Siebel63HttpConnection:138 - <- main
+2019-02-21 17:25:47 INFO  SiebelMessage:92 - file=[FRMCASI-rsp.xml]
+2019-02-21 17:25:47 INFO  SiebelMessage:53 - -> createSiebelMessageBean(FRMCASI-rsp.xml)
+2019-02-21 17:25:47 INFO  Config:27 - -> init()
+2019-02-21 17:25:47 INFO  Config:49 - - Key=[siebel63.file.csv.file] -  Value=[CenariosSiebel63.csv]
+2019-02-21 17:25:47 INFO  Config:49 - - Key=[siebel63.api.environment] -  Value=[TI8]
+2019-02-21 17:25:47 INFO  Config:49 - - Key=[siebel63.api] -  Value=[framework/start.swe/]
+2019-02-21 17:25:47 INFO  Config:49 - - Key=[siebel63.server.trg] -  Value=[http://crmoihml07.oi.corp.net/]
+2019-02-21 17:25:47 INFO  Config:49 - - Key=[siebel63.api.params] -  Value=[?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs]
+2019-02-21 17:25:47 INFO  Config:49 - - Key=[siebel63.file.xml.dir] -  Value=[src/main/resources/xml/]
+2019-02-21 17:25:47 INFO  Config:49 - - Key=[siebel63.file.tmpl.dir] -  Value=[src/main/resources/tmpl/]
+2019-02-21 17:25:47 INFO  Config:49 - - Key=[siebel63.server.ti8] -  Value=[http://crmoihml03.oi.corp.net/]
+2019-02-21 17:25:47 INFO  Config:49 - - Key=[siebel63.file.csv.dir] -  Value=[src/main/resources/csv/]
+2019-02-21 17:25:47 INFO  Config:51 - <- init()
+2019-02-21 17:25:47 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-21 17:25:47 INFO  SiebelMessage:61 - -> createSiebelMessageBean(FRMCASI-rsp.xml)
+2019-02-21 17:25:47 INFO  SiebelMessage:65 - <- createSiebelMessageBean(br.com.mcb.inspector.siebel63.model.response.SiebelMessage@50cbc42f)
+2019-02-21 17:25:47 INFO  SiebelMessage:56 - <- createSiebelMessageBean(FRMCASI-rsp.xml)
+2019-02-21 17:25:47 INFO  SiebelMessage:94 - SiebelMessage.Codigo =[0]
+2019-02-21 17:25:47 INFO  SiebelMessage:95 - SiebelMessage.Message=[]
+2019-02-21 17:25:47 INFO  SiebelMessage:70 - -> toXML()
+2019-02-21 17:25:47 INFO  SiebelMessage:82 - <- toXML()
+2019-02-21 17:25:47 INFO  SiebelMessage:98 - smxml=[[B@326de728]

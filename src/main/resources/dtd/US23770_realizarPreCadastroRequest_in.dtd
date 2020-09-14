@@ -1,0 +1,10 @@
+<!ELEMENT SiebelMessage (Body) >
+<!ATTLIST SiebelMessage MessageId     CDATA #IMPLIED >
+<!ATTLIST SiebelMessage MessageType   CDATA #IMPLIED >
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED >
+<!ELEMENT Body (RealizarPreCadastroResponse+) > 
+<!ELEMENT RealizarPreCadastroResponse (ResponseControl?) >
+<!ELEMENT ResponseControl (Control*) >
+<!ELEMENT Control (Code?,Reason?) >
+<!ELEMENT Code   (#PCDATA) >
+<!ELEMENT Reason (#PCDATA) >

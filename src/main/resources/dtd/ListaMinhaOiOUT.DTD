@@ -1,0 +1,28 @@
+<!-- Copyright (C) 1994, Siebel Systems, L.P., All rights reserved. -->
+<!-- Siebel DTD Generation -->
+<!ELEMENT SiebelMessage (Body?) >
+<!ATTLIST SiebelMessage MessageId CDATA #IMPLIED >
+<!ATTLIST SiebelMessage MessageType CDATA #IMPLIED >
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED >
+<!ELEMENT Body (realizarPreCadastroRequest+) >
+<!ELEMENT realizarPreCadastroRequest (MessageHeader*, ListOfPreCadastro?) >
+<!ELEMENT MessageHeader (Operation?, TransactionId?, CorrelationId?, BusinessId?, Timestamp?)>
+<!ELEMENT ListOfPreCadastro (Cpf?, Email?, NomeCliente?, TipoProduto?, TerminalContrato?, DataVenda?, ContaOnline?, CodSAP?, RazaoSocial?, NomeFantasia?, CanalVendas?, Uf?, Login?) >
+<!ELEMENT Operation (#PCDATA) >
+<!ELEMENT TransactionId (#PCDATA) >
+<!ELEMENT CorrelationId (#PCDATA) >
+<!ELEMENT BusinessId (#PCDATA) >
+<!ELEMENT Timestamp (#PCDATA) >
+<!ELEMENT Cpf (#PCDATA) >
+<!ELEMENT Email (#PCDATA) >
+<!ELEMENT NomeCliente (#PCDATA) >
+<!ELEMENT TipoProduto (#PCDATA) >
+<!ELEMENT TerminalContrato (#PCDATA) >
+<!ELEMENT DataVenda (#PCDATA) >
+<!ELEMENT ContaOnline (#PCDATA) >
+<!ELEMENT CodSAP (#PCDATA) >
+<!ELEMENT RazaoSocial (#PCDATA) >
+<!ELEMENT NomeFantasia (#PCDATA) >
+<!ELEMENT CanalVendas (#PCDATA) >
+<!ELEMENT Uf (#PCDATA) >
+<!ELEMENT Login (#PCDATA) >

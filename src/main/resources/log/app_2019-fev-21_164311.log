@@ -1,0 +1,60 @@
+2019-02-21 16:43:11 INFO  Inspector:132 - Response = [<?xml version="1.0" encoding="ISO-8859-1"?><SiebelMessage
+ MessageId=""
+ MessageType="Integration Object"
+ IntObjectName="FRMCASO">
+<ListaRetorno>
+<Retorno>
+<Codigo>0</Codigo>
+<Mensagem></Mensagem>
+<ListaMeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154796</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154797</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154798</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154799</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154800</MSISDN>
+</MeioDeAcesso>
+</ListaMeioDeAcesso>
+</Retorno>
+</ListaRetorno>
+</SiebelMessage>
+]
+2019-02-21 16:43:11 INFO  Inspector:133 - <- httpPost()
+2019-02-21 16:43:11 INFO  Inspector:148 - xml=[<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASI"><ListaConsultaMeioDeAcesso><Dados><OrigemRequisicao></OrigemRequisicao><ListaMeioDeAcesso><MeioDeAcesso><NumeroContaFatura>2626273094</NumeroContaFatura><DDD>21</DDD><Designacao>Varejo</Designacao><Classificacao>Normal</Classificacao></MeioDeAcesso></ListaMeioDeAcesso></Dados></ListaConsultaMeioDeAcesso></SiebelMessage>]
+2019-02-21 16:43:11 INFO  Inspector:149 - rsp=[<?xml version="1.0" encoding="ISO-8859-1"?><SiebelMessage
+ MessageId=""
+ MessageType="Integration Object"
+ IntObjectName="FRMCASO">
+<ListaRetorno>
+<Retorno>
+<Codigo>0</Codigo>
+<Mensagem></Mensagem>
+<ListaMeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154796</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154797</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154798</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154799</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154800</MSISDN>
+</MeioDeAcesso>
+</ListaMeioDeAcesso>
+</Retorno>
+</ListaRetorno>
+</SiebelMessage>
+]

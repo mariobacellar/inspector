@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASO">
+    <ListaRetorno>
+        <Retorno>
+            <Codigo>0</Codigo>
+            <Mensagem>sucesso</Mensagem>
+        </Retorno>
+    </ListaRetorno>
+</SiebelMessage>

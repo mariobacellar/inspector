@@ -1,0 +1,9 @@
+2019-02-22 17:50:36 INFO  Siebel63HttpConnection:124 - -> main
+2019-02-22 17:50:36 INFO  Config:27 - -> init()
+2019-02-22 17:50:36 INFO  Config:49 - - Key=[siebel63.file.csv.file] -  Value=[CenariosSiebel63.csv]
+2019-02-22 17:50:36 INFO  Config:49 - - Key=[siebel63.api.environment] -  Value=[TI8]
+2019-02-22 17:50:36 INFO  Config:49 - - Key=[siebel63.api] -  Value=[framework/start.swe]
+2019-02-22 17:50:36 INFO  Config:49 - - Key=[siebel63.server.trg] -  Value=[http://crmoihml07.oi.corp.net/]
+2019-02-22 17:50:36 INFO  Config:49 - - Key=[siebel63.api.params] -  Value=[?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs]
+2019-02-22 17:50:36 INFO  Config:49 - - Key=[siebel63.file.xml.dir] -  Value=[src/main/resources/xml/]
+2019-02-22 17:50:36 INFO  Config:49 - - Key=[siebel63.file.tmpl.dir] -  Value=[src/main/resources/tmpl/]

@@ -1,0 +1,23 @@
+2019-02-21 18:09:42 INFO  SiebelMessage:86 - file=[FRMCASI-rsp.xml]
+2019-02-21 18:09:42 INFO  SiebelMessage:50 - -> createSiebelMessageBean(FRMCASI-rsp.xml)
+2019-02-21 18:09:42 INFO  Config:27 - -> init()
+2019-02-21 18:09:42 INFO  Config:49 - - Key=[siebel63.file.csv.file] -  Value=[CenariosSiebel63.csv]
+2019-02-21 18:09:42 INFO  Config:49 - - Key=[siebel63.api.environment] -  Value=[TI8]
+2019-02-21 18:09:42 INFO  Config:49 - - Key=[siebel63.api] -  Value=[framework/start.swe/]
+2019-02-21 18:09:42 INFO  Config:49 - - Key=[siebel63.server.trg] -  Value=[http://crmoihml07.oi.corp.net/]
+2019-02-21 18:09:42 INFO  Config:49 - - Key=[siebel63.api.params] -  Value=[?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs]
+2019-02-21 18:09:42 INFO  Config:49 - - Key=[siebel63.file.xml.dir] -  Value=[src/main/resources/xml/]
+2019-02-21 18:09:42 INFO  Config:49 - - Key=[siebel63.file.tmpl.dir] -  Value=[src/main/resources/tmpl/]
+2019-02-21 18:09:42 INFO  Config:49 - - Key=[siebel63.server.ti8] -  Value=[http://crmoihml03.oi.corp.net/]
+2019-02-21 18:09:42 INFO  Config:49 - - Key=[siebel63.file.csv.dir] -  Value=[src/main/resources/csv/]
+2019-02-21 18:09:42 INFO  Config:51 - <- init()
+2019-02-21 18:09:42 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-21 18:09:42 INFO  SiebelMessage:58 - -> createSiebelMessageBean(FRMCASI-rsp.xml)
+2019-02-21 18:09:42 INFO  SiebelMessage:62 - <- createSiebelMessageBean(br.com.mcb.inspector.siebel63.model.response.SiebelMessage@50cbc42f)
+2019-02-21 18:09:42 INFO  SiebelMessage:53 - <- createSiebelMessageBean(FRMCASI-rsp.xml)
+2019-02-21 18:09:42 INFO  SiebelMessage:88 - SiebelMessage.Codigo =[0]
+2019-02-21 18:09:42 INFO  SiebelMessage:89 - SiebelMessage.Message=[xxxxxxxxxx]
+2019-02-21 18:09:42 INFO  SiebelMessage:67 - -> toXML()
+2019-02-21 18:09:42 INFO  Config:85 - -> readFile(temp.xml), kind=[null]
+2019-02-21 18:09:42 INFO  Config:95 - dir=[/tmp/]
+2019-02-21 18:09:42 INFO  Config:98 - file=[\tmp\temp.xml]

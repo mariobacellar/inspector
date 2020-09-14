@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><SiebelMessage
+ MessageId=""
+ MessageType="Integration Object"
+ IntObjectName="FRMCASO">
+<ListaRetorno>
+<Retorno>
+<Codigo>0</Codigo>
+<Mensagem></Mensagem>
+<ListaMeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154735</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154736</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154737</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154738</MSISDN>
+</MeioDeAcesso>
+<MeioDeAcesso>
+<MSISDN>21911154739</MSISDN>
+</MeioDeAcesso>
+</ListaMeioDeAcesso>
+</Retorno>
+</ListaRetorno>
+</SiebelMessage>

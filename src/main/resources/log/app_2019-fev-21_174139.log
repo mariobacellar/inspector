@@ -1,0 +1,7 @@
+2019-02-21 17:41:39 INFO  SiebelMessage:75 - <- createSiebelMessageBean(br.com.mcb.inspector.siebel63.model.response.SiebelMessage@50cbc42f)
+2019-02-21 17:41:39 INFO  SiebelMessage:66 - <- createSiebelMessageBean(FRMCASI-rsp.xml)
+2019-02-21 17:41:39 INFO  SiebelMessage:108 - SiebelMessage.Codigo =[0]
+2019-02-21 17:41:39 INFO  SiebelMessage:109 - SiebelMessage.Message=[]
+2019-02-21 17:41:39 INFO  SiebelMessage:80 - -> toXML()
+2019-02-21 17:41:39 INFO  SiebelMessage:96 - <- toXML()
+2019-02-21 17:41:39 INFO  SiebelMessage:112 - smxml=[null]

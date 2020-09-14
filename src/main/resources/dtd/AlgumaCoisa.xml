@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SiebelMessage SYSTEM "AlgumaCoisa.dtd" >
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaAlgumaCoisa>
+    <AlgumaCoisa>
+      <Nome>Nome</Nome>
+      <Desc>Desc</Desc>
+    </AlgumaCoisa>
+  </ListaAlgumaCoisa>
+</SiebelMessage>
+
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SiebelMessage SYSTEM "US23770_realizarPreCadastroRequest_in.dtd" >
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <Body>
+    <RealizarPreCadastroResponse>
+      <ResponseControl>
+        <Control>
+          <Code>Code</Code>
+          <Reason>Reason</Reason>
+        </Control>
+      </ResponseControl>
+    </RealizarPreCadastroResponse>
+  </Body>
+</SiebelMessage>

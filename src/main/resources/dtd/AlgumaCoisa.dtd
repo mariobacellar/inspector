@@ -1,0 +1,9 @@
+<!ELEMENT SiebelMessage (ListaAlgumaCoisa?) >
+<!ATTLIST SiebelMessage MessageId 		CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType 	CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED>
+<!ELEMENT ListaAlgumaCoisa (AlgumaCoisa*) >
+<!ELEMENT AlgumaCoisa (Nome?, Desc?) >
+<!ELEMENT Nome (#PCDATA) >
+<!ELEMENT Desc (#PCDATA) >
+

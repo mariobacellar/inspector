@@ -1,0 +1,66 @@
+2019-02-21 13:33:30 INFO  Config:52 - -> loadAllCenarios()
+2019-02-21 13:33:30 INFO  Config:117 - -> getAllCsvRecords()
+2019-02-21 13:33:30 INFO  Config:27 - -> init()
+2019-02-21 13:33:30 INFO  Config:49 - - Key=[siebel63.file.csv.file] -  Value=[CenariosSiebel63.csv]
+2019-02-21 13:33:30 INFO  Config:49 - - Key=[siebel63.api.environment] -  Value=[TI8]
+2019-02-21 13:33:30 INFO  Config:49 - - Key=[siebel63.api] -  Value=[/framework/start.swe/]
+2019-02-21 13:33:30 INFO  Config:49 - - Key=[siebel63.server.trg] -  Value=[http://crmoihml07.oi.corp.net/]
+2019-02-21 13:33:30 INFO  Config:49 - - Key=[siebel63.api.params] -  Value=[?SWEExtSource=OiFrmEAI&SWEExtCmd=Execute&UserName=pcsvitria&Password=vitpcs]
+2019-02-21 13:33:30 INFO  Config:49 - - Key=[siebel63.file.xml.dir] -  Value=[src/main/resources/xml/]
+2019-02-21 13:33:30 INFO  Config:49 - - Key=[siebel63.file.tmpl.dir] -  Value=[src/main/resources/tmpl/]
+2019-02-21 13:33:30 INFO  Config:49 - - Key=[siebel63.server.ti8] -  Value=[http://crmoihml03.oi.corp.net/]
+2019-02-21 13:33:30 INFO  Config:49 - - Key=[siebel63.file.csv.dir] -  Value=[src/main/resources/csv/]
+2019-02-21 13:33:30 INFO  Config:51 - <- init()
+2019-02-21 13:33:30 INFO  Config:22 - -> getParam(String key=[siebel63.file.csv.dir]/val=[src/main/resources/csv/])
+2019-02-21 13:33:30 INFO  Config:22 - -> getParam(String key=[siebel63.file.csv.file]/val=[CenariosSiebel63.csv])
+2019-02-21 13:33:30 INFO  Config:121 - Name=[src/main/resources/csv/CenariosSiebel63.csv]
+2019-02-21 13:33:30 INFO  Config:124 - <- getAllCsvRecords()
+2019-02-21 13:33:30 INFO  Config:75 - -> build([Ljava.lang.String;@3cd1f1c8)
+2019-02-21 13:33:30 INFO  Config:96 - -> build([Ljava.lang.String;@3cd1f1c8)
+2019-02-21 13:33:30 INFO  Config:75 - -> build([Ljava.lang.String;@3a4afd8d)
+2019-02-21 13:33:30 INFO  Config:96 - -> build([Ljava.lang.String;@3a4afd8d)
+2019-02-21 13:33:30 INFO  Config:75 - -> build([Ljava.lang.String;@1996cd68)
+2019-02-21 13:33:30 INFO  Config:96 - -> build([Ljava.lang.String;@1996cd68)
+2019-02-21 13:33:30 INFO  Config:75 - -> build([Ljava.lang.String;@3339ad8e)
+2019-02-21 13:33:30 INFO  Config:96 - -> build([Ljava.lang.String;@3339ad8e)
+2019-02-21 13:33:30 INFO  Config:75 - -> build([Ljava.lang.String;@555590)
+2019-02-21 13:33:30 INFO  Config:96 - -> build([Ljava.lang.String;@555590)
+2019-02-21 13:33:30 INFO  Config:75 - -> build([Ljava.lang.String;@6d1e7682)
+2019-02-21 13:33:30 INFO  Config:96 - -> build([Ljava.lang.String;@6d1e7682)
+2019-02-21 13:33:30 INFO  Config:65 - <- loadAllCenarios() ... loaded (6)
+2019-02-21 13:33:30 INFO  Config:43 - -> writeFile(fileNeme=[integrationObject-cenario-condicao-rsp.xml], content=[Writring test  -> cenario]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-21 13:33:30 INFO  Config:49 - dir=[src/main/resources/xml/]
+2019-02-21 13:33:30 INFO  Config:52 - file=[src\main\resources\xml\integrationObject-cenario-condicao-rsp.xml]
+2019-02-21 13:33:30 INFO  Config:58 - Content wrote=[Writring test  -> cenario]
+2019-02-21 13:33:30 INFO  Config:72 - <- writeFile(fileNeme=[integrationObject-cenario-condicao-rsp.xml], content=[Writring test  -> cenario]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:43 - -> writeFile(fileNeme=[FRMCASI-1-1-rsp.xml], content=[Writring test  -> 1]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-21 13:33:30 INFO  Config:49 - dir=[src/main/resources/xml/]
+2019-02-21 13:33:30 INFO  Config:52 - file=[src\main\resources\xml\FRMCASI-1-1-rsp.xml]
+2019-02-21 13:33:30 INFO  Config:58 - Content wrote=[Writring test  -> 1]
+2019-02-21 13:33:30 INFO  Config:72 - <- writeFile(fileNeme=[FRMCASI-1-1-rsp.xml], content=[Writring test  -> 1]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:43 - -> writeFile(fileNeme=[FRMCASI-1-2-rsp.xml], content=[Writring test  -> 1]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-21 13:33:30 INFO  Config:49 - dir=[src/main/resources/xml/]
+2019-02-21 13:33:30 INFO  Config:52 - file=[src\main\resources\xml\FRMCASI-1-2-rsp.xml]
+2019-02-21 13:33:30 INFO  Config:58 - Content wrote=[Writring test  -> 1]
+2019-02-21 13:33:30 INFO  Config:72 - <- writeFile(fileNeme=[FRMCASI-1-2-rsp.xml], content=[Writring test  -> 1]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:43 - -> writeFile(fileNeme=[FRMCASI-1-3-rsp.xml], content=[Writring test  -> 1]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-21 13:33:30 INFO  Config:49 - dir=[src/main/resources/xml/]
+2019-02-21 13:33:30 INFO  Config:52 - file=[src\main\resources\xml\FRMCASI-1-3-rsp.xml]
+2019-02-21 13:33:30 INFO  Config:58 - Content wrote=[Writring test  -> 1]
+2019-02-21 13:33:30 INFO  Config:72 - <- writeFile(fileNeme=[FRMCASI-1-3-rsp.xml], content=[Writring test  -> 1]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:43 - -> writeFile(fileNeme=[FRMCAcntFI-1-1-rsp.xml], content=[Writring test  -> 1]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-21 13:33:30 INFO  Config:49 - dir=[src/main/resources/xml/]
+2019-02-21 13:33:30 INFO  Config:52 - file=[src\main\resources\xml\FRMCAcntFI-1-1-rsp.xml]
+2019-02-21 13:33:30 INFO  Config:58 - Content wrote=[Writring test  -> 1]
+2019-02-21 13:33:30 INFO  Config:72 - <- writeFile(fileNeme=[FRMCAcntFI-1-1-rsp.xml], content=[Writring test  -> 1]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:43 - -> writeFile(fileNeme=[FRMCAcntFI-1-1-rsp.xml], content=[Writring test  -> 1]), kind=[xml]
+2019-02-21 13:33:30 INFO  Config:22 - -> getParam(String key=[siebel63.file.xml.dir]/val=[src/main/resources/xml/])
+2019-02-21 13:33:30 INFO  Config:49 - dir=[src/main/resources/xml/]
+2019-02-21 13:33:30 INFO  Config:52 - file=[src\main\resources\xml\FRMCAcntFI-1-1-rsp.xml]
+2019-02-21 13:33:30 INFO  Config:58 - Content wrote=[Writring test  -> 1]
+2019-02-21 13:33:30 INFO  Config:72 - <- writeFile(fileNeme=[FRMCAcntFI-1-1-rsp.xml], content=[Writring test  -> 1]), kind=[xml]
